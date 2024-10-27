@@ -106,8 +106,8 @@ jobs:
         run: /bin/bash -x run.sh install
       - name: Configure git user
         run: |
-          git config --global user.email "test@test.com"
-          git config --global user.name "Eric Riddoch"
+          git config --global user.email "rodrigocesar@gmail.com"
+          git config --global user.name "Rodrigo Cesar da Silva"
       - name: Open PR with a template
         run: |
           set -x
