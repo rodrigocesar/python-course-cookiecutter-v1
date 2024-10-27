@@ -36,7 +36,7 @@ on:
 
 env:
   # set the token used by gh cli (docs: https://cli.github.com/manual/gh_help_environment)
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
 
 jobs:
   create-repo-if-not-exists:
