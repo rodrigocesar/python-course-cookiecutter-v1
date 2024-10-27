@@ -35,8 +35,7 @@ on:
         default: true
 
 env:
-  # Change this line to use your PAT instead
-  GH_TOKEN: ${{ secrets.PAT_WITH_WORKFLOW_SCOPE }}
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Use the default GITHUB_TOKEN instead
 
 jobs:
   create-repo-if-not-exists:
