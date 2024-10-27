@@ -35,8 +35,8 @@ on:
         default: true
 
 env:
-  # set the token used by gh cli (docs: https://cli.github.com/manual/gh_help_environment)
-  GH_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+  # set the token used by gh cli
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   create-repo-if-not-exists:
